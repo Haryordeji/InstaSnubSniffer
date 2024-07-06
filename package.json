@@ -1,0 +1,26 @@
+{
+  "name": "instasnubsniffer",
+  "version": "1.0.0",
+  "description": "For keeping tabs on who's not reciprocating your instagram follow",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npx ts-node src/server.ts",
+    "client": "cd client && npm start",
+    "install": "cd server && npm install && cd ../client && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haryordeji/InstaSnubSniffer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haryordeji/InstaSnubSniffer/issues"
+  },
+  "homepage": "https://github.com/Haryordeji/InstaSnubSniffer#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
