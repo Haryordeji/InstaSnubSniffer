@@ -3,6 +3,8 @@ For keeping tabs on who's not reciprocating your instagram follow
 
 A lightweight, user-friendly web application that helps Instagram users discover which accounts they follow aren't following them back. 
 
+Web hosting coming soon!
+
 ## Features
 
 - **Simple Upload**: Easily upload your Instagram followers and following HTML files.
